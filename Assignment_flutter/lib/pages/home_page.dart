@@ -51,7 +51,6 @@ class _HomePageState extends State<HomePage> {
     } else {
       // Permission denied
       print('User denied the permission to read external storage');
-      // You may want to show a message to the user explaining why the permission is needed
     }
   }
 
